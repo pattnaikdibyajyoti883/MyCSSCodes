@@ -1,0 +1,17 @@
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(6, 6, 124)
+}
+div{
+    color: rgb(67, 14, 117);
+}
+p{
+    font-style: italic;
+    color: rgb(180, 11, 180);
+}
+label{
+    color: red;
+}
+button{
+    font-family: fantasy;
+}

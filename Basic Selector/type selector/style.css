@@ -1,0 +1,11 @@
+h2{
+    color:rgb(44, 9, 170);
+}
+p{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+label{
+    font-style: italic;
+}

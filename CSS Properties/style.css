@@ -1,0 +1,25 @@
+#serif{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: royalblue;
+}
+#sans-serif
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+
+}
+#monospace
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: hotpink;
+}
+#cursive
+{
+    font-family: cursive;
+    color: indigo;
+}
+#fantasy
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}

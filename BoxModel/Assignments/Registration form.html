@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup form</title>
+    <link rel="icon" href="Images\medical logo.png" type="image.png">
+</head>
+<body>
+    <h3 style="font-style: italic;color: blue;">Signup to order your Medicine</h3>
+   <div style="border:solid;background-color: burlywood;">
+    <form action="./index.html">
+        FirstName: <input type="text" placeholder="Enter your first name" name="fn" maxlength="10" required />
+        <label style="margin-left: 20px;" for="LastName">LastName: </label><input type="text" placeholder="Enter your last name" name="ln" maxlength="10" required />
+        <br />
+        <br/>
+        Contact: <input style="margin-left: 17px;" type="tel" placeholder="Enter your contact number" name="email" maxlength="10" required />
+        <label style="margin-left: 20px;" for="Email">Email: </label><input style="margin-left: 28px;" type="text" placeholder="Enter your email" name="email" maxlength="30" required />
+        <br /><br/>
+        <label for="birthday">Date Of Birth: </label>
+        <input style="margin-left: 11px;" type="date" id="birthday" name="birthday" required/>
+        <br /><br/>
+        Gender: <input type="radio" value="Male" name="gender">Male
+        <input type="radio" value="Female" name="gender"/>Female
+        <input type="radio" value="Others" name="gender"/>Others
+        <br /><br/>
+        Place of Delivery: <input type="checkbox" value="Bhubaneswar(Odisha)"/>Bhubaneswar(Odisha)
+
+        <br /><br/>
+        Password: <input style="margin-left:57px;" type="password" placeholder="Enter new password" name="new password" maxlength="20" required />
+        <br /><br/>
+        ConfirmPassword: <input style="margin-left:2px;" type="password" placeholder="Confirm new password" name=" confrim new password" maxlength="20" required />
+        <br /><br/>
+        <input type="checkbox" required/>I agree to all terms and conditions.
+        <br /><br/>
+        <input type="reset" value="Cancel"/>
+        <input type="submit" value="Submit"/>
+       </form>
+   </div> 
+</body>
+</html>
